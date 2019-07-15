@@ -1,0 +1,26 @@
+@font-face {
+	font-family: 'Blacksword'; /*a name to be used later*/
+	src: url('../../../assets/fonts/Blacksword.otf'); /*URL to font*/
+}
+
+h1 {
+	font-family: 'Blacksword';
+	font-size: 4em;
+	margin-top: 20%;
+}
+
+h4 {
+	font-family: 'Verdana';
+	font-size: 20px;
+	margin-left: 1em;
+}
+
+p {
+	font-family: 'Verdana';
+	padding: 1em;
+}
+
+div {
+	background: black;
+	color: white;
+}
