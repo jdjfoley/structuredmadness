@@ -8,7 +8,7 @@ const routes: Routes = [
 	{ path: 'home', component: HomeComponent },
 	{ path: 'structured-madness', component: StructuredMadnessComponent},
 	{ path: 'services', component: ServicesComponent },
-	{ path: '*', redirectTo: 'home'}
+	{ path: '**', redirectTo: 'home'}
 ];
 
 @NgModule({
