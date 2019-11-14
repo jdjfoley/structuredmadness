@@ -25,6 +25,14 @@
   color: #f1f1f1;
 }
 
+.nav-item {
+	font-size: 24px;
+}
+
+.router-link-active {
+	color: white;
+	border-bottom: white 1px solid;
+}
 
 /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
 @media screen and (max-height: 450px) {
@@ -43,7 +51,7 @@
 // }
 .section {
 	position: relative;
-	height: 15%;
+	height: 20%;
 	background: #ccc;
 	padding-top: 2em;
 	text-align: center;
