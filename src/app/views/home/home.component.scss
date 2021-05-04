@@ -1,6 +1,8 @@
 @font-face {
-	font-family: 'Blacksword'; /*a name to be used later*/
-	src: url('../../../assets/fonts/Blacksword.otf'); /*URL to font*/
+	font-family: 'Blacksword';
+	/*a name to be used later*/
+	src: url('../../../assets/fonts/Blacksword.otf');
+	/*URL to font*/
 }
 
 h1 {
@@ -19,7 +21,16 @@ p {
 	padding: 1em;
 }
 
+#main {
+	padding: 1rem;
+}
+
 div {
-	background: black;
 	color: white;
+}
+
+#main-container {
+	background: rgba(0, 0, 0, .35);
+	border: 1px white solid;
+	border-radius: 30px;
 }

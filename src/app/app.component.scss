@@ -2,16 +2,18 @@
 	height: 50vh;
 	width: 100%;
 }
-.leftside {
-	background-image: url('../assets/images/1967mustang.jpg');
+.leftside, .right-small-header {
+	background-image: url('../assets/images/image1.jpg');
 	background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .rightside {
-	background: black;
+	background: transparent;
 }
-
+.right-small-header {
+	height: 150px;
+}
 
 @media screen and (min-width: 768px){
 	.leftside, .rightside {
@@ -20,7 +22,7 @@
 }
 
 .bg {
-	background-image: url('../assets/images/1967mustang.jpg');
+	background-image: url('../assets/images/image1.jpg');
 	height: 100%;
 	width: 40%;
 	background-position: center;
@@ -29,7 +31,7 @@
 }
 
 .bg-alt {
-	background-image: url('../assets/images/1967mustang.jpg');
+	background-image: url('../assets/images/image1.jpg');
 	background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
